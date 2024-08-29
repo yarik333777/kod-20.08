@@ -13,15 +13,13 @@ for i in numbers:
             is_primes = False
             break
 
-        if is_primes == True:
-            primes.append(i)
-            break
-        if is_primes == False:
-            not_primes.append(i)
+    if is_primes == True:
+        primes.append(i)
+    if is_primes == False:
+        not_primes.append(i)
 
 print(primes)
 print(not_primes)
-
 
 
 
